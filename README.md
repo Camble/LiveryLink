@@ -26,6 +26,8 @@ Livery Link's purpose is twofold:
 1. Locate your `DCS\Saved Games\` folder if prompted.
 1. Choose `Yes` to install the scripts.
 
+As the DCS mod & script installation only happens once on first run, if you have any issues, delete the `LiveryLink` folder from `%AppData% (local)` and re-run. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
+
 
 ## Desktop Client
 
