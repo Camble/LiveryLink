@@ -22,23 +22,20 @@ Livery Link's purpose is twofold:
 
 ## Installation
 
+1. Extract all contents into a folder.
 1. Run `LiveryLink.exe`.
 1. Locate your `DCS\Saved Games\` folder if prompted.
 1. Choose `Yes` to install the scripts.
 
 As the DCS mod & script installation only happens once on first run, if you have any issues, delete the `LiveryLink` folder from `%AppData% (local)` and re-run. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
 
-
 ## Desktop Client
 
 The UI is currently very barebones. Paste in a Livery URL from [DCS User Files](https://www.digitalcombatsimulator.com/en/files/) to install it.
 
-There is no progress bar yet, but you should be notified when complete.
-
 # Settings
 
-If you need to clear the stored settings (e.g. your chosen liveries folder location), delete the `%AppData%\Local\LiveryLink` folder.
-
+If you need to clear the stored settings, select `Tools` then `Reset config`.
 
 ## Livery Sharing
 
@@ -62,7 +59,7 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 - [x] RAR support
 - [x] Progress indicator
 - [x] Installer (partly done - automatically installs scripts)
-- [ ] An actual UI (Livery Manager) for the desktop client
+- [ ] Livery Manager UI for the desktop client
 - [ ] Auto-updater
 - [ ] Customize which liveries are shared with other players
 - [ ] Customize which liveries to accept from other players
@@ -74,7 +71,8 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 - [ ] Custom cockpit installer
 - [ ] One-click default livery unlocker
 - [ ] In-game mod options page to customise auto-launch
+- [ ] Dark theme
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.5.0.png
+[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.6.0.png
