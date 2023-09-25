@@ -8,6 +8,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
+
 ## How Does It Work?
 
 - Livery Link auto-starts with DCS World.
@@ -15,11 +16,25 @@ Livery Link's purpose is twofold:
 - When you jump in an aircraft, any liveries you installed with Livery Link will be shared with the server, and the other players.
 - When another player shares a livery with the server, your client will download and install it automatically.
 
+
 ## Requirements
 
 - .NET 7 is required to run Livery Link
 
 
+## Recent Changes
+
+### v0.7.0
+
+- Added `config.json` file - created on first run and can be edited in the absence of an options page
+- Added `LiveryCount` and disable auto-download of received packs (downloads with more than one livery)
+- Make use of `Share` option for liveries. Defaults are `true` for manual installs, `false` for received liveries
+- Add `DateInstalled` and `DateLastSeen` to `manifest.json`
+- Su-27 liveries now install for J-11A as well
+- Refactored livery sharing between server and clients
+- Fixed install button becoming disabled after an error
+- Fixed "The process cannot access the file because it is being used by another process"
+- Automatically close when DCS exits
 ## Installation
 
 1. Extract all contents into a folder.
@@ -27,15 +42,13 @@ Livery Link's purpose is twofold:
 1. Locate your `DCS\Saved Games\` folder if prompted.
 1. Choose `Yes` to install the scripts.
 
-As the DCS mod & script installation only happens once on first run, if you have any issues, delete the `LiveryLink` folder from `%AppData% (local)` and re-run. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
+As the DCS mod & script installation only happens once on first run, if you have any issues, either delete `config.json` or select `Tools` then `Reset config`. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
+
 
 ## Desktop Client
 
 The UI is currently very barebones. Paste in a Livery URL from [DCS User Files](https://www.digitalcombatsimulator.com/en/files/) to install it.
 
-# Settings
-
-If you need to clear the stored settings, select `Tools` then `Reset config`.
 
 ## Livery Sharing
 
@@ -43,14 +56,17 @@ In order to automatically share liveries to other players, they must also have L
 
 The server will be made available for DCS server hosts with the official v1.0 release.
 
+
 ## Getting Started
 
 See [releases](https://github.com/Camble/LiveryLink/releases) for download links.
+
 
 ## Known Issues
 
 - Detected or chosen folders cannot be changed yet. Settings can be cleared by deleting or modifying the `user.config` file from `%AppData%\Local\LiveryLink`
 - Currently only ZIP files can be installed. RAR & 7z support is coming in a future release.
+
 
 ## Roadmap
 
