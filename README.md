@@ -24,6 +24,10 @@ Livery Link's purpose is twofold:
 
 ## Recent Changes
 
+### v0.7.1
+
+- Fixed bug preventing sharing from working
+
 ### v0.7.0
 
 - Added `config.json` file - created on first run and can be edited in the absence of an options page
