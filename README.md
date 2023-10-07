@@ -24,6 +24,11 @@ Livery Link's purpose is twofold:
 
 ## Recent Changes
 
+### 007.2
+
+- Fixed auto-launch
+- Improved logging
+
 ### v0.7.1
 
 - Fixed bug preventing sharing from working
