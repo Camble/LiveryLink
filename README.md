@@ -8,11 +8,19 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.9.0/LiveryLink.v0.9.0.+.Runtime.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.9.2/LiveryLink.v0.9.2.+.Runtime.zip)
+
+![Options][options-screenshot]
+
+## Requirements
+
+- .NET 7 is required to run Livery Link. Choose the `+ Runtime.zip` version if you don't have .NET 7 installed.
+
 
 ## Getting Started
 
 See [releases](https://github.com/Camble/LiveryLink/releases) for download links.
+
 
 ## How Does It Work?
 
@@ -22,25 +30,34 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 - When another player shares a livery with the server, your client will download and install it automatically.
 
 
-## Requirements
+## Installation
 
-- .NET 7 is required to run Livery Link
+1. Extract all contents into the folder of your choice.
+1. Run `LiveryLink.exe` to 
+1. Locate your `Saved Games\DCS` folder if prompted.
+1. Choose `Yes` to install the scripts.
+
+As the DCS mod & script installation only happens once on first run, if you have any issues, select `Reset config` from the `Tools` menu. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
 
 
 ## Recent Changes
+
+### 0.9.2
+
+- Added .tga to the list of allowed file types for installation
+- Improved server connection logic
+
+### 0.9.1
+
+- Implemented some missing user options
+- Fixed error when connecting to server
+- Fixed a bug preventing notifications
 
 ### v0.9.0
 
 - Options window for user customisation
 - Completely reworked notification system
 - Check for updates automatically
-
-### v0.8.2
-
-- Various bugfixes & tweaks
-
-### 0.8.1
-
 - Fixed only sharing one livery per module
 
 ### 0.8.0
@@ -48,14 +65,8 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 - Improved upgrade process for new versions
 - Refactored most of the server logic
 - Various bugfixes & server stability changes
-
-### 0.7.2
-
 - Fixed auto-launch
 - Improved logging
-
-### v0.7.1
-
 - Fixed bug preventing sharing from working
 
 ### v0.7.0
@@ -70,20 +81,6 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 - Fixed "The process cannot access the file because it is being used by another process"
 - Automatically close when DCS exits
 
-## Installation
-
-1. Extract all contents into a folder.
-1. Run `LiveryLink.exe`.
-1. Locate your `DCS\Saved Games\` folder if prompted.
-1. Choose `Yes` to install the scripts.
-
-As the DCS mod & script installation only happens once on first run, if you have any issues, either delete `config.json` or select `Tools` then `Reset config`. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
-
-
-## Desktop Client
-
-The UI is currently very barebones. Paste in a Livery URL from [DCS User Files](https://www.digitalcombatsimulator.com/en/files/) to install it.
-
 
 ## Livery Sharing
 
@@ -91,10 +88,10 @@ In order to automatically share liveries to other players, they must also have L
 
 The server will be made available for DCS server hosts with the official v1.0 release.
 
+
 ## Known Issues
 
-- Detected or chosen folders cannot be changed yet. Settings can be cleared by deleting or modifying the `user.config` file from `%AppData%\Local\LiveryLink`
-- Currently only ZIP files can be installed. RAR & 7z support is coming in a future release.
+- 7z extraction is **SLOW**
 
 
 ## Roadmap
@@ -122,4 +119,5 @@ The server will be made available for DCS server hosts with the official v1.0 re
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.6.0.png
+[options-screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.9.0-options.png
 [download]: https://github.com/Camble/LiveryLink/blob/main/download.png
