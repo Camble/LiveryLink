@@ -10,6 +10,8 @@ Livery Link's purpose is twofold:
 
 [![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.9.0/LiveryLink.v0.9.0.+.Runtime.zip)
 
+![Options][options-screenshot]
+
 ## Getting Started
 
 See [releases](https://github.com/Camble/LiveryLink/releases) for download links.
@@ -28,6 +30,12 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 
 
 ## Recent Changes
+
+### 0.9.1
+
+- Implemented some missing user options
+- Fixed error when connecting to server
+- Fixed a bug preventing notifications
 
 ### v0.9.0
 
@@ -93,8 +101,7 @@ The server will be made available for DCS server hosts with the official v1.0 re
 
 ## Known Issues
 
-- Detected or chosen folders cannot be changed yet. Settings can be cleared by deleting or modifying the `user.config` file from `%AppData%\Local\LiveryLink`
-- Currently only ZIP files can be installed. RAR & 7z support is coming in a future release.
+- 7z extraction is **SLOW**
 
 
 ## Roadmap
@@ -122,4 +129,5 @@ The server will be made available for DCS server hosts with the official v1.0 re
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.6.0.png
+[options-screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.9.0-options.png
 [download]: https://github.com/Camble/LiveryLink/blob/main/download.png
