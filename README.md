@@ -2,13 +2,15 @@
 
 ## About
 
-[![Watch the video][screenshot]](https://youtu.be/h0i65DmegYQ)
-
 Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.0/LiveryLink.v0.10.0.+.Runtime.zip)
+[![Watch the video][screenshot]](https://youtu.be/h0i65DmegYQ)
+
+Click the above screenshot to watch the video
+
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.1/LiveryLink.v0.10.1.+.Runtime.zip)
 
 ![Options][options-screenshot]
 
@@ -41,6 +43,11 @@ As the DCS mod & script installation only happens once on first run, if you have
 
 
 ## Recent Changes
+
+### 0.10.1
+
+- Fix `Value cannot be null` error on upgrade from v0.9.x
+
 
 ### 0.10.0
 
