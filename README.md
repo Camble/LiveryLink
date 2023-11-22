@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 
 Click the above screenshot to watch the video
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.1/LiveryLink.v0.10.1.+.Runtime.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.2/LiveryLink.v0.10.2.+.Runtime.zip)
 
 ![Options][options-screenshot]
 
@@ -28,14 +28,14 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 
 - Livery Link auto-starts with DCS World.
 - When you connect to a server which has Livery Link running, your client will connect.
-- When you jump in an aircraft, any liveries you installed with Livery Link will be shared with the server, and the other players.
+- When you spawn an aircraft, any liveries you installed with Livery Link will be shared with other players.
 - When another player shares a livery with the server, your client will download and install it automatically.
 
 
 ## Installation
 
 1. Extract all contents into the folder of your choice.
-1. Run `LiveryLink.exe` to 
+1. Run `LiveryLink.exe` to initialize the app.
 1. Locate your `Saved Games\DCS` folder if prompted.
 1. Choose `Yes` to install the scripts.
 
@@ -44,9 +44,17 @@ As the DCS mod & script installation only happens once on first run, if you have
 
 ## Recent Changes
 
+### 0.10.2
+
+ - Add support to install liveries for community mod aircraft
+ - Open parent folder and select livery folder when user double-clicks
+ - Display DCS server name in status bar when connected
+ - Fixed socket timeout issue when installing livery for the first time
+
+
 ### 0.10.1
 
-- Fix `Value cannot be null` error on upgrade from v0.9.x
+- Fixed `Value cannot be null` error on upgrade to v0.10.0
 
 
 ### 0.10.0
