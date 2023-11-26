@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 
 Click the above screenshot to watch the video
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.2/LiveryLink.v0.10.2.+.Runtime.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.3/LiveryLink.v0.10.3.+.Runtime.zip)
 
 ![Options][options-screenshot]
 
@@ -44,12 +44,16 @@ As the DCS mod & script installation only happens once on first run, if you have
 
 ## Recent Changes
 
+### 0.10.3
+
+- Fixed an issue when sharing more than one livery
+
+
 ### 0.10.2
 
- - Add support to install liveries for community mod aircraft
- - Open parent folder and select livery folder when user double-clicks
- - Display DCS server name in status bar when connected
+ - Added support to install liveries for community mod aircraft
  - Fixed socket timeout issue when installing livery for the first time
+ - Display DCS server name in status bar when connected
 
 
 ### 0.10.1
