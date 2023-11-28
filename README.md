@@ -6,11 +6,13 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.5/LiveryLink.v0.10.5.+.Runtime.zip)
+
+Dev Survey: https://take.supersurvey.com/poll5025492x4aEf560f-153
+
+Click the screenshot to watch a short video
+
 [![Watch the video][screenshot]](https://youtu.be/h0i65DmegYQ)
-
-Click the above screenshot to watch the video
-
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.4/LiveryLink.v0.10.4.+.Runtime.zip)
 
 ![Options][options-screenshot]
 
@@ -44,6 +46,12 @@ As the DCS mod & script installation only happens once on first run, if you have
 
 ## Recent Changes
 
+### 0.10.5
+
+- Linked Liveries for community modules will only be downloaded if the mod is installed
+- Fixed: All liveries from the same pack have the same name
+- Fixed: Can't delete Livery thumbnail while Livery Link is running
+
 ### 0.10.4
 
 - Fixed an issue installing liveries where `description.lua` doesn't specify the livery name
@@ -52,7 +60,6 @@ As the DCS mod & script installation only happens once on first run, if you have
 ### 0.10.3
 
 - Fixed an issue when sharing more than one livery
-
 
 ### 0.10.2
 
@@ -145,6 +152,6 @@ The server will be made available for DCS server hosts with the official v1.0 re
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.6.0.png
+[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.10.4.png
 [options-screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.9.0-options.png
 [download]: https://github.com/Camble/LiveryLink/blob/main/download.png
