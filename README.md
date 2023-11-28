@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 
 Click the above screenshot to watch the video
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.3/LiveryLink.v0.10.3.+.Runtime.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.4/LiveryLink.v0.10.4.+.Runtime.zip)
 
 ![Options][options-screenshot]
 
@@ -43,6 +43,11 @@ As the DCS mod & script installation only happens once on first run, if you have
 
 
 ## Recent Changes
+
+### 0.10.4
+
+- Fixed an issue installing liveries where `description.lua` doesn't specify the livery name
+- Properly fixed sharing multiple liveries (this was still an issue from 0.10.3)
 
 ### 0.10.3
 
