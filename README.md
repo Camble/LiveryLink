@@ -152,6 +152,6 @@ The server will be made available for DCS server hosts with the official v1.0 re
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.10.4.png
+[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.10.5.png
 [options-screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.9.0-options.png
 [download]: https://github.com/Camble/LiveryLink/blob/main/download.png
