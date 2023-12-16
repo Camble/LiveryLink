@@ -1,12 +1,16 @@
 # Livery Link
 
+## Requirements
+
+- .NET 8 is required to run Livery Link. You will be prompted to install it if you don't already have it.
+
 ## About
 
 Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.10.6/LiveryLink.v0.10.6.+.Runtime.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.11.0/LiveryLink.v0.11.0.zip)
 
 Dev Survey: https://take.supersurvey.com/poll5025492x4aEf560f-153
 
@@ -15,10 +19,6 @@ Click the screenshot to watch a short video
 [![Watch the video][screenshot]](https://youtu.be/h0i65DmegYQ)
 
 ![Options][options-screenshot]
-
-## Requirements
-
-- .NET 7 is required to run Livery Link. Choose the `+ Runtime.zip` version if you don't have .NET 7 installed.
 
 
 ## Getting Started
@@ -41,39 +41,32 @@ See [releases](https://github.com/Camble/LiveryLink/releases) for download links
 1. Locate your `Saved Games\DCS` folder if prompted.
 1. Choose `Yes` to install the scripts.
 
-As the DCS mod & script installation only happens once on first run, if you have any issues, select `Reset config` from the `Tools` menu. This is especially important if you relocate `LiveryLink.exe` to another folder, as the launcher won't know where to find it.
+As the DCS mod & script installation only happens once on first run, if you have any issues, select `Reset Livery Link` from the `Tools` menu. This is especially important if you relocate `LiveryLink.exe` to another folder, otherwise the launcher won't know where to find it.
+
+## Livery Sharing
+
+In order to automatically share liveries to other players, they must also have Livery Link, and the server you are flying on must be running Livery Link Server.
+
+The server will be made available for DCS server hosts with the official v1.0 release.
 
 
 ## Recent Changes
 
-### 0.10.6
+### 0.11.0
 
-- Fixed: Liveries not shared properly when connecting to server
-
-### 0.10.5
-
+- Updated to .NET 8
+- Improved 7zip extraction speed (10x)
+- Added `dark mode` theme
 - Linked Liveries for community modules will only be downloaded if the mod is installed
 - Fixed: All liveries from the same pack have the same name
 - Fixed: Can't delete Livery thumbnail while Livery Link is running
-
-### 0.10.4
-
+- Fixed: Liveries not shared properly when connecting to server
 - Fixed an issue installing liveries where `description.lua` doesn't specify the livery name
-- Properly fixed sharing multiple liveries (this was still an issue from 0.10.3)
-
-### 0.10.3
-
+- Properly fixed sharing multiple liveries
 - Fixed an issue when sharing more than one livery
-
-### 0.10.2
-
- - Added support to install liveries for community mod aircraft
- - Fixed socket timeout issue when installing livery for the first time
- - Display DCS server name in status bar when connected
-
-
-### 0.10.1
-
+- Added support to install liveries for community mod aircraft
+- Fixed socket timeout issue when installing livery for the first time
+- Display DCS server name in status bar when connected
 - Fixed `Value cannot be null` error on upgrade to v0.10.0
 
 
@@ -120,17 +113,9 @@ As the DCS mod & script installation only happens once on first run, if you have
 - Automatically close when DCS exits
 
 
-## Livery Sharing
-
-In order to automatically share liveries to other players, they must also have Livery Link, and the server you are flying on must be running Livery Link Server.
-
-The server will be made available for DCS server hosts with the official v1.0 release.
-
-
 ## Known Issues
 
-- 7z extraction is **SLOW**
-
+None at the moment.
 
 ## Roadmap
 
@@ -140,8 +125,10 @@ The server will be made available for DCS server hosts with the official v1.0 re
 - [x] Progress indicator
 - [x] Installer (partly done - automatically installs scripts)
 - [x] Update checker
+- [x] Auto-update
 - [ ] Livery Manager UI for the desktop client
-- [ ] Auto-updater
+- [ ] Dark theme
+- [ ] Livery auto-update
 - [ ] Customize which liveries are shared with other players
 - [ ] Customize which liveries to accept from other players
 - [ ] Blacklist download of liveries for certain modules, or above a certain size
@@ -151,10 +138,10 @@ The server will be made available for DCS server hosts with the official v1.0 re
 - [ ] Support to share "server-side" liveries (server owner can share livery with players who fly on their server)
 - [ ] Custom cockpit installer
 - [ ] One-click default livery unlocker
-- [ ] In-game mod options page to customise auto-launch
-- [ ] Dark theme
+- [ ] Livery optimizer (compress textures & symlink shared files)
+- [ ] Mod options to customise auto-launch
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#livery-link">back to top</a>)</p>
 
 [screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.10.5.png
 [options-screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.9.0-options.png
