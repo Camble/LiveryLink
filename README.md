@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.11.7/LiveryLink.v0.11.7.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.11.8/LiveryLink.v0.11.8.zip)
 
 Click the screenshot to watch a short video
 
@@ -32,7 +32,6 @@ Click the screenshot to watch a short video
 1. Locate your `Saved Games\DCS` folder if prompted.
 1. Choose `Yes` to install the scripts.
 
-As the DCS mod & script installation only happens once on first run, if you have any issues, select `Reset Livery Link` from the `Tools` menu. This is especially important if you relocate `LiveryLink.exe` to another folder, otherwise the launcher won't know where to find it.
 
 ## Livery Sharing
 
@@ -42,6 +41,11 @@ The server will be made available for DCS server hosts with the v1.0 release.
 
 
 ## Recent Changes
+
+### 0.11.8
+
+- Fixed: `Install Scripts` can't properly close DCS
+
 
 ### 0.11.7
 
