@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.11.9/LiveryLink.v0.11.9.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.12.0/LiveryLink.v0.12.0.zip)
 
 Click the screenshot to watch a short video
 
@@ -42,15 +42,24 @@ The server will be made available for DCS server hosts with the v1.0 release.
 
 ## Recent Changes
 
+### 0.12.0
+
+- Browser will now update if a livery is deleted from the disk
+- Liveries are sorted by `DateInstalled`
+- Added `Liveries` menu with `Show All` option to separate your own liveries from those shared with you
+- Added logging when liveries are installed
+- Added notification when there was a failed livery installation
+- `LiveryLinkUpdater.exe` now generates a log file to aid debugging
+- Set IsInstalled to true if description.lua exists when loading liveries
+- Fixed: Shared livery is downloaded twice if shared again when download is in progress
+
 ### 0.11.9
 
 - Fixed an issue preventing shared liveries from being installed
 
-
 ### 0.11.8
 
 - Fixed: `Install Scripts` can't properly close DCS
-
 
 ### 0.11.7
 
@@ -92,7 +101,6 @@ The server will be made available for DCS server hosts with the v1.0 release.
 
 - Fixed updater not launching
 
-
 ### 0.11.0
 
 - Updated to .NET 8
@@ -111,50 +119,6 @@ The server will be made available for DCS server hosts with the v1.0 release.
 - Fixed socket timeout issue when installing livery for the first time
 - Display DCS server name in status bar when connected
 - Fixed `Value cannot be null` error on upgrade to v0.10.0
-
-
-### 0.10.0
-
-- Added a very early livery browser to the client UI
-- Track when shared liveries were last seen
-- Improved server handshake to ensure client and server versions match
-- Warn if DCS is running when attempting to install the script
-- Fixed an issue with receiving multiple shared liveries
-- Added .tga to the list of allowed file types for installation
-- Improved server connection logic
-- Implemented some missing user options
-- Fixed error when connecting to server
-- Fixed a bug preventing notifications
-- Many other bugfixes and improvements
-
-### v0.9.0
-
-- Options window for user customisation
-- Completely reworked notification system
-- Check for updates automatically
-- Fixed only sharing one livery per module
-
-### 0.8.0
-
-- Improved upgrade process for new versions
-- Refactored most of the server logic
-- Various bugfixes & server stability changes
-- Fixed auto-launch
-- Improved logging
-- Fixed bug preventing sharing from working
-
-### v0.7.0
-
-- Added `config.json` file - created on first run and can be edited in the absence of an options page
-- Added `LiveryCount` and disable auto-download of received packs (downloads with more than one livery)
-- Make use of `Share` option for liveries. Defaults are `true` for manual installs, `false` for received liveries
-- Add `DateInstalled` and `DateLastSeen` to `manifest.json`
-- Su-27 liveries now install for J-11A as well
-- Refactored livery sharing between server and clients
-- Fixed install button becoming disabled after an error
-- Fixed "The process cannot access the file because it is being used by another process"
-- Automatically close when DCS exits
-
 
 ## Roadmap
 
