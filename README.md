@@ -42,6 +42,10 @@ The server will be made available for DCS server hosts with the v1.0 release.
 
 ## Recent Changes
 
+### 0.12.2
+
+- Minor bugfixes
+
 ### 0.12.1
 
 - Fixed: Crash on first run
