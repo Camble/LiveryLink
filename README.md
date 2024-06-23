@@ -19,9 +19,9 @@ Click the screenshot to watch a short video
 
 ## How Does It Work?
 
-- Livery Link auto-starts with DCS World.
+- Liveries must be installed with Livery Link to be shared.
 - When you connect to a server which has Livery Link running, your client will connect.
-- When you spawn an aircraft, any liveries you installed with Livery Link will be shared with other players.
+- When you take off, your current livery will be shared with other players.
 - When another player shares a livery with the server, your client will download and install it automatically.
 
 
@@ -48,6 +48,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - Moved progress bar into notification instead of main window
 - Refactored how liveries are stored in memory
 - Standardised mod installation logic across Livery Link and Updater
+
+---
 
 ### 0.16.6
 
@@ -291,5 +293,5 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 <p align="right">(<a href="#livery-link">back to top</a>)</p>
 
-[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.14.0.png
+[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.17.0.png
 [download]: https://github.com/Camble/LiveryLink/blob/main/download.png
