@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.16.6/LiveryLink.v0.16.6.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.17.0/LiveryLink.v0.17.0.zip)
 
 Click the screenshot to watch a short video
 
@@ -42,6 +42,13 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
+### 0.17.0
+
+- Added "Group by Aircraft" to Liveries menu
+- Moved progress bar into notification instead of main window
+- Refactored how liveries are stored in memory
+- Standardised mod installation logic across Livery Link and Updater
+
 ### 0.16.6
 
 - Fixed: updater won't launch automatically if username contains a space
@@ -70,6 +77,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 - Fixed conflict with F-4E Phantom II module
 
+---
+
 ### 0.15.2
 
 - Fixed: LiveryLink doesn't close automatically if DCS is running as an Administrator
@@ -82,6 +91,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 - Window can now also be resized horizontally
 - Fixed: Deleting a module folder from the disk doesn't update the Livery Browser view
+
+---
 
 ### 0.14.7
 
@@ -117,6 +128,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 ### 0.14.0
 
 - Improved how server/client communicate
+
+---
 
 ### 0.13.8
 
@@ -162,6 +175,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 - Improved sharing: only liveries selected by the player will be shared on takeoff
 
+---
+
 ### 0.12.2
 
 - Minor bugfixes
@@ -180,6 +195,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - `LiveryLinkUpdater.exe` now generates a log file to aid debugging
 - Set IsInstalled to true if description.lua exists when loading liveries
 - Fixed: Shared livery is downloaded twice if shared again when download is in progress
+
+---
 
 ### 0.11.9
 
@@ -271,7 +288,6 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - [ ] Custom cockpit installer
 - [ ] One-click default livery unlocker
 - [ ] Livery optimizer (compress textures & symlink shared files)
-- [ ] Mod options to customise auto-launch
 
 <p align="right">(<a href="#livery-link">back to top</a>)</p>
 
