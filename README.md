@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.19.5/LiveryLink.v0.19.5.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.19.6/LiveryLink.v0.19.6.zip)
 
 Click the screenshot to watch a short video
 
@@ -41,6 +41,13 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.19.6
+
+- Fixed: Shared livery acceptance is incorrectly reported
+- Fixed: DateLastSeen not updated correctly for livery packs
+- Fixed: Certain image filetypes (png/jpg) are not extracted when installing liveries
+- Fixed: Liveries requested from player even when in co-pilot seat
 
 ### 0.19.5
 
