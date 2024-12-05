@@ -10,7 +10,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.20.1/LiveryLink.v0.20.1.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.21.0/LiveryLink.v0.21.0.zip)
 
 Click the screenshot to watch a short video
 
@@ -41,6 +41,16 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.21.0
+
+- Added: F-5E 2024
+- Changed Livery name prefix from asterisk (*) to bullet (•) - I may make this customisable in future
+- Improved error handling
+- Improved performance of description.lua updates
+- Server: Reduced logging noise 
+- Server: Modified handshake
+- Server: Fixed issue with sharing liveries when player reslots and returns to an aircraft
 
 ### 0.20.1
 
