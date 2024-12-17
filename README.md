@@ -1,5 +1,7 @@
 # Livery Link
 
+> Note: From v0.22.0, releases of Livery Link will include a zipped folder to make installation easier. If you are on v0.19.0 or earlier, you will need to manually update to the newer version before the auto-updater will handle this new folder structure.
+
 ## Requirements
 
 - .NET 8 is required to run Livery Link. You will be prompted to install it if you don't already have it.
@@ -10,7 +12,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.21.1/LiveryLink.v0.21.1.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.21.2/LiveryLink.v0.21.2.zip)
 
 Click the screenshot to watch a short video
 
@@ -41,6 +43,11 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.21.2
+
+- Fixed: NullReferenceException when installing livery where texture files are not inside a subfolder
+- Adjusted logging config to only keep 7 days of logs
 
 ### 0.21.1
 
