@@ -12,7 +12,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.21.3/LiveryLink.v0.21.3.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.22.0/LiveryLink.v0.22.0.zip)
 
 Click the screenshot to watch a short video
 
@@ -44,6 +44,11 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
+### 0.22.0
+
+- Feature: Delete Livery from within the new right-click context menu.
+- Feature: Drag an image into the Livery Link window to use it as a thumbnail for that livery. Ideal for local files, which only display the default thumbnail.
+- Improvement: When attempting to resolve which aircraft a livery is for and there are multiple matches (i.e. A10A, A10C, A10CII), check if there is one single installed module. If so, use this. Otherwise, the selection dialog will only display the possible modules.
 
 ### 0.21.3
 
@@ -82,6 +87,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - Fixed: Double-clicking a livery won't open the folder where the path contains a comma
 
 ---
+<details>
+<summary>Changelog for previous versions</summary>
 
 ### 0.19.10
 
@@ -447,6 +454,7 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - Fixed socket timeout issue when installing livery for the first time
 - Display DCS server name in status bar when connected
 - Fixed `Value cannot be null` error on upgrade to v0.10.0
+</details>
 
 ## Roadmap
 
