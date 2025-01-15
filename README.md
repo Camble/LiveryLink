@@ -44,6 +44,17 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
+### 0.23.0
+
+- `Mods` & `Scripts` are now embedded into Livery Link, making the installation process simpler
+- Fixed: NullReferenceException when extracting "solid" RAR archives (previous fix was a workaround for a specific example)
+- Fixed: `manifest.json` AppVersion mistakenly updates when updating SeenCount of a livery
+
+---
+
+<details>
+<summary>Changelog for previous versions</summary>
+
 ### 0.22.3
 
 - Fixed: Received share is re-downloaded even when previously "Deleted Forever"
@@ -63,9 +74,6 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - Improvement: When attempting to resolve which aircraft a livery is for and there are multiple matches (i.e. A10A, A10C, A10CII), check if there is one single installed module. If so, use this. Otherwise, the selection dialog will only display the possible modules.
 
 ---
-
-<details>
-<summary>Changelog for previous versions</summary>
 
 ### 0.21.3
 
