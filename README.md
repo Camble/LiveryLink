@@ -46,7 +46,7 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ### 0.25.2
 
-- Fixed: Install for compatible modules doesn't work
+- Fixed: `Install for compatible modules` doesn't work
 
 ### 0.25.1
 
