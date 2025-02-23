@@ -12,7 +12,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.24.5/LiveryLink.v0.24.5.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.0/LiveryLink.v0.25.0.zip)
 
 Click the screenshot to watch a short video
 
@@ -44,6 +44,18 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
+### 0.25.0
+
+- Improved server logging
+- Improved error handling and crash reporting
+- Tidied up some of the user options, tweaked defaults
+- Minor UI tweaks
+
+---
+
+<details>
+<summary>Changelog for previous versions</summary>
+
 ### 0.24.5
 
 - Fixed: `Value cannot be null` error on first run
@@ -67,14 +79,11 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 ### 0.24.0
 
 - Feature: Install liveries from Google Drive. In order to receive Google Drive shares, you will need to enable `Receive from untrusted download locations`
-- Improvement: When installing liveries for compatible aircraft, automatically install for whichever variant is available.
+- Improvement: When installing liveries for compatible aircraft, automatically install for whichever variant is available
 - Added: Default thumbnail for rotary aircraft
 - Added: Visual indicator on manually installed liveries
 
 ---
-
-<details>
-<summary>Changelog for previous versions</summary>
 
 ### 0.23.0
 
