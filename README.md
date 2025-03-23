@@ -44,6 +44,10 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
+### 0.25.7
+
+- Fixed: Accepting certain shares from Google Drive doesn't work
+
 ### 0.25.6
 
 - Minor improvements to logging
