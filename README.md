@@ -1,6 +1,7 @@
 # Livery Link
 
-> Note: From v0.22.0, releases of Livery Link will include a zipped folder to make installation easier. If you are on v0.19.0 or earlier, you will need to manually update to the newer version before the auto-updater will handle this new folder structure.
+> [!IMPORTANT]
+> From v0.22.0, releases of Livery Link will include a zipped folder to make installation easier. If you are on v0.19.0 or earlier, you will need to manually update to the newer version before the auto-updater will handle this new folder structure.
 
 ## Requirements
 
@@ -12,7 +13,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.11/LiveryLink.v0.25.11.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.12/LiveryLink.v0.25.12.zip)
 
 Click the screenshot to watch a short video
 
@@ -43,6 +44,12 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.25.12
+
+- Fixed: `Liveries folder has not been set` error notification doesn't correctly display when trying to install livery
+- Fixed: Installing livery after changing `liveries` folder uses the old folder
+- Fixed: Liveries not reloaded after changing `liveries` folder
 
 ### 0.25.11
 
@@ -581,10 +588,8 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - [ ] Disk space quota
 - [ ] Server software release
 - [ ] Support to share "server-side" liveries (server owner can share livery with players who fly on their server)
-- [ ] Optional support for liveries hosted on untrusted hosts
-- [ ] Custom cockpit installer
 - [ ] One-click default livery unlocker
-- [ ] Livery optimizer (compress textures & symlink shared files)
+- [ ] Livery optimizer
 
 <p align="right">(<a href="#livery-link">back to top</a>)</p>
 
