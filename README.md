@@ -1,7 +1,7 @@
 # Livery Link
 
 > [!IMPORTANT]
-> From v0.22.0, releases of Livery Link will include a zipped folder to make installation easier. If you are on v0.19.0 or earlier, you will need to manually update to the newer version before the auto-updater will handle this new folder structure.
+> The updater included with v0.23.0 has bug, which prevents it from launching. If you are still on v0.23.0, you will need to manually update to the newer version. Please go to [Releases](https://github.com/Camble/LiveryLink/releases) to find the latest version.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.12/LiveryLink.v0.25.12.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.13/LiveryLink.v0.25.13.zip)
 
 Click the screenshot to watch a short video
 
@@ -44,6 +44,10 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.25.13
+
+- Fixed: F-5E 2024 liveries are installed in the wrong folder
 
 ### 0.25.12
 
