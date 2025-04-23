@@ -5,7 +5,7 @@
 
 ## Requirements
 
-- .NET 8 is required to run Livery Link. You will be prompted to install it if you don't already have it.
+- [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer) is required to run Livery Link. You will be prompted to install it if you don't already have it.
 
 ## About
 
@@ -13,7 +13,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.20/LiveryLink.v0.25.20.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.25.21/LiveryLink.v0.25.21.zip)
 
 Click the screenshot to watch a short video
 
@@ -44,6 +44,11 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.25.21
+
+- Added a more meaningful error message when unable to extract encrypted or RAR5 archives
+- Improved logging during mod installation/removal
 
 ### 0.25.20
 
