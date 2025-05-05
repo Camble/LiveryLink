@@ -13,7 +13,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.26.4/LiveryLink.v0.26.4.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.26.5/LiveryLink.v0.26.5.zip)
 
 Click the screenshot to watch a short video
 
@@ -44,6 +44,12 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+### 0.26.5
+
+- Removed DownloadUrl from `manifest.json` where Source is `GoogleDrive` or `UserFiles`
+- Refactored manifest to properly separate different sources, since different sources require different fields
+- When requesting shares of `P-47D-30bl1` & `P-47D-40` liveries, now watch the common `P-47D-30` folder as expected
 
 ### 0.26.4
 
