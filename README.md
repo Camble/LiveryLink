@@ -13,7 +13,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.26.17/LiveryLink.v0.26.17.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.26.18/LiveryLink.v0.26.18.zip)
 
 Click the screenshot to watch a short video
 
@@ -44,6 +44,15 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 
 ## Recent Changes
+
+## 0.26.18
+
+- Added `Get Share Link` feature to livery context menu
+- Added some icons to menus
+- Always exclude PDF files when extracting
+- Removed `SeenCount` & `ShareCount` from `manifest.json`
+- Fixed: Eagle Dynamics URL doesn't work without trailing slash
+- Fixed: 7zip extractor sometimes mis-identifies folders as livery folders
 
 ## 0.26.17
 
