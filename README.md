@@ -47,7 +47,7 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## 0.26.22
 
-- Disable optional coalition-specific bullet prefixes by default
+- Disable coalition-specific bullet prefixes by default
 
 ## 0.26.21
 
