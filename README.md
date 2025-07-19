@@ -45,11 +45,12 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
-##0.26.24
+## 0.26.24
 
+- Fixed: Updater fails silently and doesn't update
 - Fixed: `Could not load file or assembly`
 
-##0.26.23
+## 0.26.23
 
 - Removed some unnecessary dependencies
 
