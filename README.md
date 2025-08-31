@@ -3,6 +3,10 @@
 > [!IMPORTANT]
 > The updater included with v0.23.0 has bug, which prevents it from launching. If you are still on v0.23.0, you will need to manually update to the newer version. Please go to [Releases](https://github.com/Camble/LiveryLink/releases) to find the latest version.
 
+## Privacy Policy
+
+[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
+
 ## Requirements
 
 - [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer) is required to run Livery Link. You will be prompted to install it if you don't already have it.
