@@ -1,7 +1,7 @@
 # Livery Link
 
 > [!IMPORTANT]
-> The updater included with v0.23.0 has bug, which prevents it from launching. If you are still on v0.23.0, you will need to manually update to the newer version. Please go to [Releases](https://github.com/Camble/LiveryLink/releases) to find the latest version.
+> The updater included with v0.26.14 has bug, which prevents it from launching. If you are still on v0.26.14, you will need to manually update to the newer version. Please go to [Releases](https://github.com/Camble/LiveryLink/releases) to find the latest version.
 
 ## Privacy Policy
 
