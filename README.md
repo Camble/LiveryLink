@@ -784,5 +784,5 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 <p align="right">(<a href="#livery-link">back to top</a>)</p>
 
-[screenshot]: https://github.com/Camble/LiveryLink/blob/main/screenshot-0.17.0.png
-[download]: https://github.com/Camble/LiveryLink/blob/main/download.png
+[screenshot]: https://liverylink.xyz/screenshot-0.17.0.png
+[download]: https://liverylink.xyz/download.png
