@@ -49,6 +49,11 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## Recent Changes
 
+## 0.27.11
+
+- Corrected FC3 Mig-29 (A/G/S) variant compatibility and improved variant detection
+- Fixed: Installing a livery sometimes adds a duplicate aircraft to the browser view
+
 ## 0.27.10
 
 - Updated community mod detection to include mods installed in the DCS installation folder
