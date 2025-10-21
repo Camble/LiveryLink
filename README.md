@@ -1,23 +1,12 @@
 # Livery Link
 
-> [!IMPORTANT]
-> The updater included with v0.26.14 has bug, which prevents it from launching. If you are still on v0.26.14, you will need to manually update to the newer version. Please go to [Releases](https://github.com/Camble/LiveryLink/releases) to find the latest version.
-
-## Privacy Policy
-
-[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
-
-## Requirements
-
-- [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer) is required to run Livery Link. You will be prompted to install it if you don't already have it.
-
 ## About
 
 Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.27.13/LiveryLink.v0.27.13.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.27.14/LiveryLink.v0.27.14.zip)
 
 Click the screenshot to watch a short video
 
@@ -30,6 +19,11 @@ Click the screenshot to watch a short video
 - When you connect to a server which has Livery Link running, your client will connect.
 - When you take off, your current livery will be shared with other players.
 - When another player shares a livery with the server, your client will download and install it automatically.
+
+
+## Requirements
+
+- [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer) is required to run Livery Link. You will be prompted to install it if you don't already have it.
 
 
 ## Installation
@@ -47,7 +41,16 @@ In order to automatically share liveries to other players, they must also have L
 The server will be made available for DCS server hosts with the v1.0 release. Pre-release is available for Patreon supporters.
 
 
+## Privacy Policy
+
+[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
+
+
 ## Recent Changes
+
+## 0.27.14
+
+- Improved detection of community mod aircraft when installing liveries
 
 ## 0.27.13
 
