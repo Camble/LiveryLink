@@ -1,16 +1,5 @@
 # Livery Link
 
-> [!IMPORTANT]
-> The updater included with v0.26.14 has bug, which prevents it from launching. If you are still on v0.26.14, you will need to manually update to the newer version. Please go to [Releases](https://github.com/Camble/LiveryLink/releases) to find the latest version.
-
-## Privacy Policy
-
-[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
-
-## Requirements
-
-- [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer) is required to run Livery Link. You will be prompted to install it if you don't already have it.
-
 ## About
 
 Livery Link's purpose is twofold:
@@ -32,6 +21,11 @@ Click the screenshot to watch a short video
 - When another player shares a livery with the server, your client will download and install it automatically.
 
 
+## Requirements
+
+- [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer) is required to run Livery Link. You will be prompted to install it if you don't already have it.
+
+
 ## Installation
 
 1. Extract all contents into the folder of your choice.
@@ -45,6 +39,11 @@ Click the screenshot to watch a short video
 In order to automatically share liveries to other players, they must also have Livery Link, and the server you are flying on must be running Livery Link Server.
 
 The server will be made available for DCS server hosts with the v1.0 release. Pre-release is available for Patreon supporters.
+
+
+## Privacy Policy
+
+[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
 
 
 ## Recent Changes
