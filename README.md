@@ -50,7 +50,7 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 ## 0.27.24
 
-- Fixed a bug where liveries have been deleted from disk
+- Fixed: "Collection was modified" exception if the user deletes a livery from disk while Livery Link is running
 - Fixed: Imported liveries not being shared
 
 ## 0.27.23
