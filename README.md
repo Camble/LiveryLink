@@ -17,7 +17,7 @@ Click the screenshot to watch a short video
 
 - Liveries must be installed with Livery Link to be shared.
 - When you connect to a server which has Livery Link running, your client will connect.
-- When you take off, your current livery will be shared with other players.
+- When you apply a custom livery, it will be automatically shared with other players.
 - When another player shares a livery with the server, your client will download and install it automatically.
 
 
