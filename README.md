@@ -41,12 +41,58 @@ In order to automatically share liveries to other players, they must also have L
 The server will be made available for DCS server hosts with the v1.0 release. Pre-release is available for Patreon supporters.
 
 
-## Privacy Policy
+## Roadmap
 
-[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
+```mermaid
+---
+config:
+  theme: 'dark'
+---
+timeline
 
+Complete
+: DCS Mod
+: 7z Support 
+: RAR Support
+: Google Drive Support
+: Automatic Update
+: Livery Manager GUI
+: Nested Livery Support
+
+v0.29
+: Livery Grouping
+: Livery Auto-Update
+
+v0.30
+: Google Drive Integration
+
+v1.0
+: .NET 10 Migration
+: Server Release
+: Hybrid Livery Source
+: Dark theme
+
+Post v1.0
+: Server-Side Liveries
+: Default Livery Unlocker
+: Livery optimizer
+: Auto-delete old liveries
+: Module Blacklist
+: Disk space quota
+```
 
 ## Recent Changes
+
+## 0.29.0
+
+- Livery Grouping: Liveries from the same archive are now grouped into a folder, which can be expanded by double-clicking.
+- Livery Auto-Update: Liveries can now be automatically kept up to date. Downloads will happen in the background and the update will happen on exit.
+- Where background downloads are throttled and DCS exits, downloads are completed at full speed before Livery Link closes.
+
+---
+
+<details>
+<summary>Changelog for previous versions</summary>
 
 ## 0.28.8
 
@@ -88,11 +134,6 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 
 - Share immediately: New sharing logic for Livery Link Server allows sharing instantly, instead of waiting for takeoff.
 - Fixed: Imported liveries missing Source information, which prevents sharing.
-
----
-
-<details>
-<summary>Changelog for previous versions</summary>
 
 ## 0.27.26
 
@@ -901,27 +942,12 @@ The server will be made available for DCS server hosts with the v1.0 release. Pr
 - Fixed `Value cannot be null` error on upgrade to v0.10.0
 </details>
 
-## Roadmap
+---
 
-- [x] Auto-launch with DCS
-- [x] 7z support
-- [x] RAR support
-- [x] Progress indicator
-- [x] Installer (partly done - automatically installs scripts)
-- [x] Update checker
-- [x] Auto-update
-- [x] Livery Manager UI for the desktop client
-- [x] Download from untrusted sources (e.g. Google Drive)
-- [ ] Dark theme
-- [ ] Livery auto-update
-- [ ] Customize which liveries to accept from other players
-- [ ] Blacklist download of liveries for certain modules, or above a certain size
-- [ ] Auto-delete old liveries
-- [ ] Disk space quota
-- [ ] Server software release
-- [ ] Support to share "server-side" liveries (server owner can share livery with players who fly on their server)
-- [ ] One-click default livery unlocker
-- [ ] Livery optimizer
+## Privacy Policy
+
+[Privacy Policy](https://liverylink.xyz/PRIVACY.html)
+
 
 <p align="right">(<a href="#livery-link">back to top</a>)</p>
 
