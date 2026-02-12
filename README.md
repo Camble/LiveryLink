@@ -83,6 +83,10 @@ Post v1.0
 
 ## Recent Changes
 
+## 0.29.1
+
+- Logging tweaks
+
 ## 0.29.0
 
 - Livery Grouping: Liveries from the same archive are now grouped into a folder, which can be expanded by double-clicking.
