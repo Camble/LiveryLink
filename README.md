@@ -83,6 +83,10 @@ Post v1.0
 
 ## Recent Changes
 
+## 0.29.2
+
+- Fixed: Prompt to enable livery auto-update only shows on version 0.29.0
+
 ## 0.29.1
 
 - Logging tweaks
