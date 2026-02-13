@@ -83,6 +83,10 @@ Post v1.0
 
 ## Recent Changes
 
+# 0.29.3
+
+- Fixed an issue preventing the updater from running successfully
+
 ## 0.29.2
 
 - Fixed: Prompt to enable livery auto-update only shows on version 0.29.0
