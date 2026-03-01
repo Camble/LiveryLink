@@ -86,7 +86,7 @@ Post v1.0
 ## 0.29.14
 
 - Fixed: Locally installed liveries don't display properly.
-- Fixed: Dropping a screenshot onto Livery throws an error.
+- Fixed: Dropping a new thumbnail image onto Livery throws an error.
 
 ## 0.29.13
 
