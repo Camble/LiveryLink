@@ -6,7 +6,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.29.16/LiveryLink.v0.29.16.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.29.17/LiveryLink.v0.29.17.zip)
 
 Click the screenshot to watch a short video
 
@@ -82,6 +82,12 @@ Post v1.0
 ```
 
 ## Recent Changes
+
+## 0.29.17
+
+- Added: Mirage F1 variants
+- Added: OH-6J "Little Bird" mod support
+- Added: Prompt on startup to enable `NTFS Last Access Update` if livery sharing is enabled.
 
 ## 0.29.16
 
