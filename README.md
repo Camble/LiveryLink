@@ -6,7 +6,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.29.21/LiveryLink.v0.29.21.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.29.22/LiveryLink.v0.29.22.zip)
 
 Click the screenshot to watch a short video
 
@@ -82,6 +82,10 @@ Post v1.0
 ```
 
 ## Recent Changes
+
+## 0.29.22
+
+- Fixed: Liveries compatible with variants don't prompt to select a module if the Livery author's archive structure already has the module folder.
 
 ## 0.29.21
 
