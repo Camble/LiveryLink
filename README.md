@@ -83,6 +83,20 @@ Post v1.0
 
 ## Recent Changes
 
+## 0.30.0
+
+- Google Drive Integration: `Install from Google Drive` option is now enabled, and non-public Google Drive links can now be shared if the recipient has been granted access.
+- Sharing Improvements:
+  - `Share Immediately` option is now the default behaviour, the server option to share on takeoff has been removed.
+  - Fixed: Livery Link might not detect a livery change if another player is already using the same livery.
+  - Fixed: Livery Link might not detect a livery change if DCS was recently restarted.
+- Added `Expand Folders` option to `Liveries` menu - enable this to always expand livery pack folders.
+
+---
+
+<details>
+<summary>Changelog for previous versions</summary>
+
 ## 0.29.28
 
 - Fixed: `InvalidOperationException` when prompting user to select a module.
@@ -208,11 +222,6 @@ Post v1.0
 - Livery Grouping: Liveries from the same archive are now grouped into a folder, which can be expanded by double-clicking.
 - Livery Auto-Update: Liveries can now be automatically kept up to date. Downloads will happen in the background and the update will happen on exit.
 - Where background downloads are throttled and DCS exits, downloads are completed at full speed before Livery Link closes.
-
----
-
-<details>
-<summary>Changelog for previous versions</summary>
 
 ## 0.28.8
 
