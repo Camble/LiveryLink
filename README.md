@@ -58,13 +58,12 @@ Complete
 : Automatic Update
 : Livery Manager GUI
 : Nested Livery Support
-
-v0.29
 : Livery Grouping
 : Livery Auto-Update
-
-v0.30
 : Google Drive Integration
+
+v0.31
+: Livery Extraction Refactor
 
 v1.0
 : .NET 10 Migration
@@ -82,6 +81,11 @@ Post v1.0
 ```
 
 ## Recent Changes
+
+## 0.30.1
+
+- Fixed: Error when cancelling Google Drive file picker.
+- Fixed: Error when pasting in an inaccessible Google Drive URL (now displays a user-friendly warning).
 
 ## 0.30.0
 
