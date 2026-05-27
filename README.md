@@ -6,7 +6,7 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.30.3/LiveryLink.v0.30.3.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.31.0/LiveryLink.v0.31.0.zip)
 
 Click the screenshot to watch a short video
 
@@ -82,7 +82,20 @@ Post v1.0
 
 ## Recent Changes
 
+## 0.31.0
+
+- Improved livery extraction to support relative paths and more unusual directory structures.
+- Fixed: Google Drive liveries update repeatedly due to incorrect version information
+- Fixed: Nested Livery folder UI doesn't update correctly when livery is manually deleted from disk
+- Fixed: Livery size shows as 0Mb when installed until restart
+
+---
+
+<details>
+<summary>Changelog for previous versions</summary>
+
 ## 0.30.3
+
 - Another fix: Livery Link doesn't start if `Liveries` folder does not exist.
 
 ## 0.30.2
@@ -103,11 +116,6 @@ Post v1.0
   - Fixed: Livery Link might not detect a livery change if another player is already using the same livery.
   - Fixed: Livery Link might not detect a livery change if DCS was recently restarted.
 - Added `Expand Folders` option to `Liveries` menu - enable this to always expand livery pack folders.
-
----
-
-<details>
-<summary>Changelog for previous versions</summary>
 
 ## 0.29.28
 
