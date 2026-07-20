@@ -8,6 +8,9 @@ Livery Link's purpose is twofold:
 
 [![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.31.7/LiveryLink.v0.31.7.zip)
 
+> [!IMPORTANT]
+> Direct Livery installation from User Files is not currently working, due to 403 Forbidden errors. To work around this, simply download the livery to disk and drag the archive file onto the Livery Link window.
+
 Click the screenshot to watch a short video
 
 [![Watch the video][screenshot]](https://youtu.be/h0i65DmegYQ)
@@ -62,9 +65,6 @@ Complete
 : Livery Auto-Update
 : Google Drive Integration
 : Livery Extraction Improvements
-
-v0.32
-: 
 
 v1.0
 : .NET 10 Migration
