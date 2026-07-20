@@ -6,7 +6,10 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.31.7/LiveryLink.v0.31.7.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.32.0/LiveryLink.v0.32.0.zip)
+
+> [!IMPORTANT]
+> Direct Livery installation from User Files is not currently working, due to 403 Forbidden errors. To work around this, simply download the livery to disk and drag the archive file onto the Livery Link window.
 
 Click the screenshot to watch a short video
 
@@ -63,9 +66,6 @@ Complete
 : Google Drive Integration
 : Livery Extraction Improvements
 
-v0.32
-: 
-
 v1.0
 : .NET 10 Migration
 : Server Release
@@ -82,6 +82,16 @@ Post v1.0
 ```
 
 ## Recent Changes
+
+## 0.32.0
+
+- Added Cloudflare Turnstile handling for User Files. Most installs should be seamless, but you may occasionally be prompted to check a box to prove you're human.
+  Automatic livery updates from User Files is currently not working, but this will be fixed in a future release.
+
+---
+
+<details>
+<summary>Changelog for previous versions</summary>
 
 ## 0.31.7
 
@@ -118,11 +128,6 @@ Post v1.0
 - Fixed: Google Drive liveries update repeatedly due to incorrect version information
 - Fixed: Nested Livery folder UI doesn't update correctly when livery is manually deleted from disk
 - Fixed: Livery size shows as 0Mb when installed until restart
-
----
-
-<details>
-<summary>Changelog for previous versions</summary>
 
 ## 0.30.3
 
