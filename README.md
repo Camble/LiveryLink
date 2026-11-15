@@ -6,10 +6,10 @@ Livery Link's purpose is twofold:
 - A desktop application to simplify downloading, installing & managing DCS Liveries.
 - An automatic livery sharing mod for DCS.
 
-[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.32.3/LiveryLink.v0.32.3.zip)
+[![Download][download]](https://github.com/Camble/LiveryLink/releases/download/v0.32.4/LiveryLink.v0.32.4.zip)
 
 > [!IMPORTANT]
-> Direct Livery installation from User Files is not currently working, due to 403 Forbidden errors. To work around this, simply download the livery to disk and drag the archive file onto the Livery Link window.
+> Direct Livery installation via User Files is still potentially buggy, due to CloudFlare. If CloudFlare verification is required, you should be prompted to confirm you are human. If this fails, the installation will timeout in 60 seconds. Please get in touch via Discord or the DCS forum thread if you are experiencing problems.
 
 Click the screenshot to watch a short video
 
@@ -82,6 +82,10 @@ Post v1.0
 ```
 
 ## Recent Changes
+
+## 0.32.4
+
+- Further CloudFlare improvements
 
 ## 0.32.3
 
